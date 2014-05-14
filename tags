@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+INSTRUCTIONSIZE	MemoryManagement.c	9;"	d	file:
+PAGESIZE	MemoryManagement.c	8;"	d	file:
+PageList	MemoryManagement.c	/^} PageNode, *PageList, *PagePointer; $/;"	t	typeref:struct:_page	file:
+PageNode	MemoryManagement.c	/^} PageNode, *PageList, *PagePointer; $/;"	t	typeref:struct:_page	file:
+PagePointer	MemoryManagement.c	/^} PageNode, *PageList, *PagePointer; $/;"	t	typeref:struct:_page	file:
+TABLESIZE	MemoryManagement.c	7;"	d	file:
+_page	MemoryManagement.c	/^typedef struct _page {$/;"	s	file:
+genInstruction	MemoryManagement.c	/^genInstruction(int *Array) {$/;"	f
+getTableLength	MemoryManagement.c	/^getTableLength() {$/;"	f
+instructionArray	MemoryManagement.c	/^int instructionArray[INSTRUCTIONSIZE]; $/;"	v
+isInTable	MemoryManagement.c	/^isInTable(int pageNum) {$/;"	f
+main	MemoryManagement.c	/^main(int argc, $/;"	f
+next	MemoryManagement.c	/^  struct _page *next; $/;"	m	struct:_page	typeref:struct:_page::_page	file:
+num	MemoryManagement.c	/^  int num; $/;"	m	struct:_page	file:
+pageTable	MemoryManagement.c	/^PageList pageTable; $/;"	v
+printInstruction	MemoryManagement.c	/^printInstruction() {$/;"	f
+printTable	MemoryManagement.c	/^printTable() {$/;"	f
+run	MemoryManagement.c	/^run() {$/;"	f
